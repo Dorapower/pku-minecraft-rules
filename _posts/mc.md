@@ -79,11 +79,56 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 5. **公共区域**指不属于任何**建筑规划区**的方块，其中非玩家实体和容器内的物品默认属于公有，可任意取用。
 6. **特殊说明的建议方式**：在方块容器（如箱子，漏斗，投掷器）上用告示牌标注私有或公有，生物可以命名（如驴，羊驼），需要禁止可能的状态改变的方块（如活版门）也可用告示牌标注。
 
-### 2. 公共设施管理办法
+### 2. 地图标记
+
+本服设置了在线地图，任何玩家可以在地图上设置点、线、区域。
+
+1. 标示方法：
+```
+#标示点（尖括号为可选参数）
+/dmarker add <label> <set:set_name> ： 添加标记点，并添加到集合set_name，名为label
+/dmarker delete <label> ： 删除标记点，名为label
+```
+```
+#设置集合（尖括号为可选参数）
+/dmarker addset <label> hide:<hide-by-def> prio:<priority> minzoom:<minzoom> : 添加集合，名为label
+/dmarker deleteset <label> ： 删除集合，名为label
+```
+```
+#标示线和区域（尖括号为可选参数）
+/dmarker addcorner : 将坐标点添加到列表
+/dmarker addcorner <x> <z> <world> : 将指定坐标点添加到列表
+/dmarker clearcorners : 清除列表
+
+/dmarker addarea <label> <color:FFFFFF> <set:set_name>：使用列表的点围成区域,添加到集合set_name，名为label，颜色FFFFFF
+/dmarker deletearea <label> : 删除名为label区域
+
+/dmarker addline <label> <color:FFFFFF> <set:set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色FFFFFF
+/dmarker deleteline <label> : 删除线，名为label
+```
+### 3. 公共设施管理办法
 
 **公共设施**指建筑在**建筑规划区**内，由建筑规划区的所有者决定，开放给公众并提供公共服务的设施。
 
+1. 在开始您的建设之前，请对地图进行大致的浏览并查看以下的**公共设施列表**
 
+2. 在完成了上述事项之后，您可以选择**任意**大小的一片区域进行建造，并将您选择的区域的坐标、您的游戏id、添加时间添加到**公共设施列表**中。
+
+3. 如您在建造过程中遇到以下问题，请联系该区域的建造者协商解决。
+   - 空间冲突；
+   - 希望对已完工的建筑区域进行修改或统一建筑风格；
+   - 希望承包已荒废较长时间的建筑区域；
+   - 其他可能与他人产生矛盾的问题。
+
+4. 建筑规划列表
+
+   | 编号 | 游戏id | 项目名称 | 添加时间  | 坐标            |
+   | ---- | ------ | -------- | --------- | --------------- |
+   | 1    | 张三   | 没有     | 2020-4-16 | main主世界：xyz |
+   | 2    |        |          |           |                 |
+   | 3    |        |          |           |                 |
+
+   
 
 
 
