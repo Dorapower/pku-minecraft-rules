@@ -1,4 +1,4 @@
 # pku-minecraft-rules
 rules of a pkuer minecraft server  
-- 社区守则: [rules.md](rules.md)
-- 新手指南: [guide.md](guide.md)
+文档请编辑[_posts/mc.md](_posts/mc.md)  
+图片放在[img](img/)目录    
