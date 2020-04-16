@@ -95,12 +95,13 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 /dmarker addcorner <x> <z> <world> : 将指定坐标点添加到列表
 /dmarker clearcorners : 清除列表
 
-/dmarker addarea <label> <color:FFFFFF> <set:set_name>：使用列表的点围成区域,添加到集合set_name，名为label，颜色FFFFFF
+/dmarker addarea <label> <color:RRGGBB> <set:set_name>：使用列表的点围成区域,添加到集合set_name，名为label，颜色RRGGBB
 /dmarker deletearea <label> : 删除名为label区域
 
-/dmarker addline <label> <color:FFFFFF> <set:set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色FFFFFF
+/dmarker addline <label> <color:RRGGBB> <set:set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色RRGGBB
 /dmarker deleteline <label> : 删除线，名为label
 ```
+
 ### 3. 公共设施管理办法
 
 **公共设施**指建筑在**建筑规划区**内，由建筑规划区的所有者决定，开放给公众并提供公共服务的设施。
