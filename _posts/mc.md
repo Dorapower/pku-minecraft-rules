@@ -15,14 +15,14 @@ title: 欢迎来到PKUer的Minecraft服务器！
 
 	2. 点击名字带有`HMCL`的应用程序
 
-	3. 取一个昵称**用户名或玩家ID只由字母，数字和下划线构成，长度限制为3-16位**填写进去,启动游戏,点击多人游戏
+	3. 取一个昵称**只由字母，数字和下划线构成，长度限制为3-16位**填写进去,启动游戏,点击多人游戏
 	
 	4. 享受!
 
 - macOS
   1. 安装java运行环境,自己百度.点击[这里](http://cdn.alicespace.cn/Alice_space.zip)下载整合包,解压到一个文件夹
   2. 下载[HMCL](https://github.com/huanghongxun/HMCL/releases/download/v3.3.163/HMCL-3.3.163.jar)启动器,放在解压的根目录
-  3. 双击运行启动器,取一个昵称**用户名或玩家ID只由字母，数字和下划线构成，长度限制为3-16位**填写进去,启动游戏,点击多人游戏
+  3. 双击运行启动器,取一个昵称**只由字母，数字和下划线构成，长度限制为3-16位**填写进去,启动游戏,点击多人游戏
   4. 享受!
   
 - Linux
@@ -82,7 +82,7 @@ title: 欢迎来到PKUer的Minecraft服务器！
 
    ![plotz](./img/plotz.png)
 
-4. 找结构专用，本服[种子]([https://minecraft-zh.gamepedia.com/%E7%A7%8D%E5%AD%90%EF%BC%88%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90%EF%BC%89](https://minecraft-zh.gamepedia.com/种子（世界生成）))公开 [chunkbase](https://www.chunkbase.com/)
+4. 找结构专用，本服[种子](https://minecraft-zh.gamepedia.com/种子（世界生成）)公开 [chunkbase](https://www.chunkbase.com/)
 
    ![chunkbase](./img/chunk.png)
 
