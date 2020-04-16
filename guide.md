@@ -19,16 +19,16 @@
 
 2. 官方wiki，你的大多数问题在这里都有解答 [Official Minecraft Wiki(chs)](https://minecraft-zh.gamepedia.com/Minecraft_Wiki)
 
-   ![wiki](./wiki.png)
+   ![wiki](./img/wiki.png)
 
 3. mc画圆专用 [Plotz Modeller For Minecraft](https://www.plotz.co.uk/)
 
-   ![plotz](./plotz.png)
+   ![plotz](./img/plotz.png)
 
 4. 找结构专用，本服[种子]([https://minecraft-zh.gamepedia.com/%E7%A7%8D%E5%AD%90%EF%BC%88%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90%EF%BC%89](https://minecraft-zh.gamepedia.com/种子（世界生成）))公开 [chunkbase](https://www.chunkbase.com/)
 
-   ![chunkbase](./chunk.png)
+   ![chunkbase](./img/chunk.png)
 
 5. 创造专用，本服设有创造服 [worldedit](https://worldedit.readthedocs.io/en/latest/)
 
-   ![worldedit](./worldedit.png)
+   ![worldedit](./img/worldedit.png)
