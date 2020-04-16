@@ -90,11 +90,6 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 /dmarker delete <label> ： 删除标记点，名为label
 ```
 ```
-#设置集合（尖括号为可选参数）
-/dmarker addset <label> hide:<hide-by-def> prio:<priority> minzoom:<minzoom> : 添加集合，名为label
-/dmarker deleteset <label> ： 删除集合，名为label
-```
-```
 #标示线和区域（尖括号为可选参数）
 /dmarker addcorner : 将坐标点添加到列表
 /dmarker addcorner <x> <z> <world> : 将指定坐标点添加到列表
