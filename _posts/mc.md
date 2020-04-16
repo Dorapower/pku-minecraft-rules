@@ -52,53 +52,25 @@ title: 欢迎来到PKUer的Minecraft服务器！
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <a href="http://mc.alicespace.cn:8124/index.html"><img height="30px;" src="https://img.shields.io/badge/map-available-green.svg"></a> | <a href="http://mc.alicespace.cn:8125/index.html"><img height="30px;" src="https://img.shields.io/badge/map-available-green.svg"></a> |
 
-<center><h1>新手指南</h1></center>
-
----
-[新手指南建设中,欢迎贡献](https://github.com/Alice-space/pku-minecraft-rules)
-
-## 关于Minecraft
-
-1. **用户名或玩家ID只由字母，数字和下划线构成，长度限制为3-16位**，即使玩盗版，也要遵守一下正常规则，否则可能出现问题
-2. Minecraft已售出1.8亿份，月活跃玩家超一亿，是当之无愧的全世界最畅销/活跃的游戏（这个必须得吹一波
-
-## 关于服务器
-
-1. 服务器基本形式是多人可以一同游玩的minecraft，既然是多人就需要遵守社区规则
-
-## 关于本服
-
-1. 本服现在平台为paper 1.15.2，与原版行为不同请见谅
-
-## 友情链接
-
-1. 本服 [主页](https://mc.alicespace.cn/#/)
-
-2. 官方wiki，你的大多数问题在这里都有解答 [Official Minecraft Wiki(chs)](https://minecraft-zh.gamepedia.com/Minecraft_Wiki)
-
-   ![wiki](./img/wiki.png)
-
-3. mc画圆专用 [Plotz Modeller For Minecraft](https://www.plotz.co.uk/)
-
-   ![plotz](./img/plotz.png)
-
-4. 找结构专用，本服[种子](https://minecraft-zh.gamepedia.com/种子（世界生成）)公开 [chunkbase](https://www.chunkbase.com/)
-
-   ![chunkbase](./img/chunk.png)
-
-5. 创造专用，本服设有创造服 [worldedit](https://worldedit.readthedocs.io/en/latest/)
-
-   ![worldedit](./img/worldedit.png)
-
-<center><h1>社区守则(建议稿)</h1></center>
+<center><h1>社区守则(建议稿)与新手指南</h1></center>
 
 ---
 [社区守则建设中,欢迎贡献](https://github.com/Alice-space/pku-minecraft-rules)
 
+## 总则
+Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几个来自北京大学的对于minecraft有浓厚兴趣的同学出于爱好目的**无偿自愿**搭建的，与北京大学官方**无任何关系**。本服成员亦不得以学校官方名义做任何宣传活动。
 
-## 所有制
+## 服务器概述
+本服分为两个子服：
 
-​	以公有制为基础，多种所有制共同发展
+- 生存服：`Paper`服务端 `1.15.2`原版纯净生存模式
+
+- 创造服：`Paper`服务端 `1.15.2`创造模式，主题为还原pku建筑情况
+
+## 生存服规范
+### 1. 所有制
+
+以公有制为基础，多种所有制共同发展
 
 1. 所有权指minecraft世界中方块，实体和物品的拥有，更改，转化和消灭的权力（hhh），所有制是所有权的制度
 2. 服务器实行领地制（分封制，包产到户制），领地指具有特定方块坐标（或者区块坐标？）的空间（只限xz吧。。。）每个人可以有多块领地，领地可通过 *一定方式* 得到
@@ -106,13 +78,29 @@ title: 欢迎来到PKUer的Minecraft服务器！
 4. 不属于任何领地的土地上的方块，非玩家实体和容器内的物品默认属于公有，原则上领地内所有方块和实体由领地所有者所有，特殊说明除外
 5. 特殊说明的建议方式：在方块容器（如箱子，漏斗，投掷器）上用告示牌标注私有或公有，生物可以命名（如驴，羊驼），需要禁止可能的状态改变的方块（如活版门）也可用告示牌标注
 
-## 商店
+### 2. 商店
 
 说不定可以从上面推出来（
 
-## 公共工程
+### 3. 公共工程
 
 欢迎参与
 
-## 待续
+### 4. 待续
 
+
+<center><h1>一些信息</h1></center>
+
+---
+
+
+## 关于Minecraft
+1. Minecraft已售出1.8亿份，月活跃玩家超一亿，是当之无愧的全世界最畅销/活跃的游戏（这个必须得吹一波
+
+
+## 友情链接
+
+1. 官方wiki，你的大多数问题在这里都有解答 [Official Minecraft Wiki(chs)](https://minecraft-zh.gamepedia.com/Minecraft_Wiki)
+2. mc画圆专用 [Plotz Modeller For Minecraft](https://www.plotz.co.uk/)
+3. 找结构专用，本服[种子](https://minecraft-zh.gamepedia.com/种子（世界生成）)公开 [chunkbase](https://www.chunkbase.com/)
+4. 本服设有创造服，添加了[worldedit](https://worldedit.readthedocs.io/en/latest/)插件方便快速建造
