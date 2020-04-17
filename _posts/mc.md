@@ -101,6 +101,25 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 /dmarker addline <label> <color:RRGGBB> <set:set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色RRGGBB
 /dmarker deleteline <label> : 删除线，名为label
 ```
+2. 举例说明：
+```
+# 绘制多边形、折线ABCDE
+
+#添加列表
+/dmarker addcorner <xA> <zA>
+/dmarker addcorner <xB> <zB>
+/dmarker addcorner <xC> <zC>
+/dmarker addcorner <xD> <zD>
+/dmarker addcorner <xE> <zE>
+
+#多边形
+/dmarker addarea <label> <color:RRGGBB> <set:set_name>：使用ABCDE点围成区域,添加到集合set_name，名为label，颜色RRGGBB
+
+#折线
+/dmarker addline <label> <color:RRGGBB> <set:set_name>: 添加ABCDE连接的线，添加到集合set_name，名为label，颜色RRGGBB
+
+#绘制结束后ABCDE会被自动清理
+```
 
 ### 3. 公共设施管理办法
 
