@@ -86,9 +86,10 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 1. 标示方法：
 ```
 #标示点（尖括号为可选参数）
-/dmarker add <label> <set:set_name> ： 添加标记点，并添加到集合set_name，名为label
+/dmarker add <label> <set:set_name> <icon:icon_name>： 添加标记点，并添加到集合set_name，名为label
 /dmarker delete <label> ： 删除标记点，名为label
 ```
+icon-name请看[这里](https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons)
 ```
 #标示线和区域（尖括号为可选参数）
 /dmarker addcorner : 将坐标点添加到列表
