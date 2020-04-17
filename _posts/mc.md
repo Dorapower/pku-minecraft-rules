@@ -82,8 +82,9 @@ Alice_space(A pkuer minecraft server)服务器(以下简称"本服")，是由几
 1. 标示方法：
 ```
 #标示点(用指定值替换尖括号参数，方括号为可选参数)
-/dmarker add <label> <set:set_name> <icon:icon_name>： 在当前坐标处添加标记点到集合set_name，名为label
-/dmarker delete <label> ： 删除标记点，名为label
+/dmarker add <label> set:<set_name> icon:<icon_name>： 在当前坐标处添加标记点到集合set_name，名为label
+/dmarker delete <label> ： 删除标记点，名为label，更改位置请删除原有再重新添加
+/dmarker list [set:<markerset-id>] ： 列出指定集合中的点，一般不需填写集合
 ```
 icon-name请看[这里](https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons)
 ```
@@ -92,11 +93,15 @@ icon-name请看[这里](https://github.com/webbukkit/dynmap/wiki/Using-markers#m
 /dmarker addcorner <x> <z> [world] : 将指定坐标点添加到列表,不指定world为当前所在维度
 /dmarker clearcorners : 清除列表
 
-/dmarker addarea <label> <color:RRGGBB> <set:set_name>：使用列表的点围成区域,添加到集合set_name，名为label，颜色RRGGBB，未指明set将添加至默认集合，which is irregular
-/dmarker deletearea <label> : 删除名为label区域
+/dmarker addarea <label> color:<RRGGBB> set:<set_name>：使用列表的点围成区域,添加到集合set_name，名为label，颜色RRGGBB，未指明set将添加至默认集合，which is irregular
+/dmarker deletearea id:<area-id> set:<markerset-id> : 删除区域, id 从listareas可知
 
-/dmarker addline <label> <color:RRGGBB> <set:set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色RRGGBB,原则上线应添加入railway集合
-/dmarker deleteline id:<line-id> set:<markerset-id> : 删除线，名为label
+/dmarker listareas set:<markerset-id>: 列出指定集合中的区域，可以找到需要的id
+
+/dmarker addline <label> color:<RRGGBB> set:<set_name>: 添加列表的点连接的线，添加到集合set_name，名为label，颜色RRGGBB,原则上线应添加入railway集合
+/dmarker deleteline id:<line-id> set:<markerset-id> : 删除线，id从listlines可知
+
+/dmarker listlines set:<markerset-id>: 列出指定集合中的线，一般markerset-id是railway
 ```
 2. 举例说明：
 ```
